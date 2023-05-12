@@ -2,6 +2,10 @@
 
 A database with universities from all over the world plus a list of countries.
 
+This GitHub repository contains the NodeJS Express server for the Angular application located at https://github.com/paulo-bettencourt/worldwide-university-database.
+
+The server is responsible for handling server-side logic and interacting with databases, and it is built using the minimal and flexible Express web application framework. The FE app uses several technologies, including Angular, TypeScript, Angular Material, RxJS, Bootstrap, and Firebase. This repository serves as a back-end component for the Worldwide University Database Angular app, providing a robust set of features for building web and mobile applications.
+
 ## Development server
 
 Run `node server.js` for a dev server. The server will be hosted at `http://localhost:3000/`.
@@ -17,11 +21,13 @@ You can fetch `GET` all the countries in the world at:
 `https://blushing-jacket-foal.cyclic.app/countries/api`
 
 ---
+
 ## Requirements
 
 For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
 
 ### Node
+
 - #### Node installation on Windows
 
   Just go on [official Node.js website](https://nodejs.org/) and download the installer.
@@ -50,7 +56,9 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ npm install npm -g
 
 ###
+
 ### Yarn installation
+
 After installing node, this project will need yarn too, so just run the following command.
 
       $ npm install -g yarn
